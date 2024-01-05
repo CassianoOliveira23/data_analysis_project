@@ -1,4 +1,4 @@
-<h1 align="center">Projeto de Análise de Dados</h1>
+<h1 align="center">Análise de Dados</h1>
 
 ![analiseimagem](https://github.com/CassianoOliveira23/data_analysis_project/assets/130614345/9b0fc301-509f-4766-8617-003f05568385)
 
