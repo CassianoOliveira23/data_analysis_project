@@ -116,7 +116,7 @@ percentual maior de cancelamento.</p>
 
 ---
 
-<h1>Analisando as Informações dos Conratos</h1>
+<h1>Analisando as Informações dos Contratos</h1>
 
 <p>Aqui nós vamos utilizar o groupby para agrupar as
 informações da coluna duração_contrato e depois
