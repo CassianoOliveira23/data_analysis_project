@@ -4,7 +4,7 @@
 
 <h3>Case: Cancelamento de Clientes</h3>
 
-<p>Uma empresa de grande porte recentemente percebeu que da sua base total de clientes, a maioria são clientes inativos, ou seja, que ja cancelaram o serviço.</p>
+<p>Uma empresa de grande porte recentemente percebeu que da sua base total de clientes, a maioria são clientes inativos, ou seja, que já cancelaram o serviço.</p>
 <p>Precisando melhorar seus resultados a empresa quer compreender os motivos que levaram ao cancelamento, e quais as ações mais eficientes para reduzir este número</p>
 
 ---
@@ -18,15 +18,14 @@ Ferramentas Utilizadas:
 
 <h1>Importando a Base de Dados</h1>
 
-<p>Vamos importar da biblioteca
-pandas, muito utilizada para análise de dados.
-Após importar a biblioteca pandas nós vamos
+<p>Importei a biblioteca
+pandas, após importar a biblioteca nós vamos
 utilizar o pd.read_csv para ler o nosso arquivo
 que está no formato csv. E atribundo a tabela a uma variável</p>
 
 ![1](https://github.com/CassianoOliveira23/data_analysis_project/assets/130614345/a8c2c763-72ad-43ed-ba20-dd5f46944a80)
 
-<h3>vamos utilizar o comando display para visualizar a nossa base de dados.</h3>
+<h3>Utilizei o comando display para visualizar a nossa base de dados.</h3>
 
 ![2](https://github.com/CassianoOliveira23/data_analysis_project/assets/130614345/279c513a-e4a4-4139-a249-edf006794e53)
 
@@ -80,7 +79,7 @@ assinaturas, então mais da metade dos clientes estão
 cancelando o serviço.</p>
 
 <p>Então vamos descobrir de onde vem esse
-número tão alto!
+número.
 </p>
 
 
@@ -106,7 +105,7 @@ proporção na duração dos contratos:
 - Trimestral 40,00%
 -  Mensal 19,75%
 
-<p>Veja que a temos uma divisão quase igual entre os planos anual e
+<p>Veja que temos uma divisão quase igual entre os planos anual e
 trimestral, mas o plano mensal já fica atrás com quase 20%.</p>
 
 <p>O que podemos fazer é analisar as informações dos contratos para
@@ -118,7 +117,7 @@ percentual maior de cancelamento.</p>
 
 <h1>Analisando as Informações dos Contratos</h1>
 
-<p>Aqui nós vamos utilizar o groupby para agrupar as
+<p>Utilizei o groupby para agrupar as
 informações da coluna duração_contrato e depois
 fazer a média das informações que temos na tabela.</p>
 
@@ -195,12 +194,11 @@ fundo na nossa análise de dados.</p>
 
 <h1>Análises Gráficas</h1>
 
-<p>Para criação dos gráficos nós vamos utilizar a biblioteca plotly.express, então se você ainda não instalou a biblioteca basta ir
-até o terminal e escrever pip install plotly.</p>
+<p>Para criação dos gráficos nós vamos utilizar a biblioteca plotly.express</p>
 
 ![10 - criango graficos](https://github.com/CassianoOliveira23/data_analysis_project/assets/130614345/1e373590-e48b-4e27-9d24-3ade114ac634)
 
-<p>Feito isso, vamos utilizar a estrutura de repetição For para percorrer cada uma das colunas da nossa tabela. Com isso vamos
+<p>Agora utilizei a estrutura de repetição For para percorrer cada uma das colunas da nossa tabela. Com isso vamos
 criar um gráfico de Histograma com cada uma das colunas, assim podemos analisar cada uma das informações e verificar como
 elas se comportam em relação aos cancelamentos da empresa</p>
 
